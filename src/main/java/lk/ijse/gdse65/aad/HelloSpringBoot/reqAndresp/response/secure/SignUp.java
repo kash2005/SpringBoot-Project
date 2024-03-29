@@ -1,16 +1,15 @@
-package lk.ijse.gdse65.aad.HelloSpringBoot.dto;
+package lk.ijse.gdse65.aad.HelloSpringBoot.reqAndresp.response.secure;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Builder
-public class UserDTO {
-    private String id;
+public class SignUp {
     private String firstName;
     private String lastName;
     private String email;
